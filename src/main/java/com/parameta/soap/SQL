@@ -1,0 +1,13 @@
+CREATE TABLE `empleado` (
+  `id` bigint NOT NULL,
+  `apellidos` varchar(255) NOT NULL,
+  `cargo` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `fecha_nacimiento` datetime DEFAULT NULL,
+  `fecha_vinculacion` datetime DEFAULT NULL,
+  `nombres` varchar(255) NOT NULL,
+  `numero_documento` varchar(255) NOT NULL,
+  `salario` double NOT NULL,
+  `tipo_documento` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

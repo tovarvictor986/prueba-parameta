@@ -1,0 +1,3 @@
+INSERT INTO empleados.empleado
+(id, apellidos, cargo, email, fecha_nacimiento, fecha_vinculacion, nombres, numero_documento, salario, tipo_documento)
+VALUES(0, '', '', '', '', '', '', '', 0, '');
